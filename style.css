@@ -1,0 +1,37 @@
+body{
+background: -moz-linear-gradient(-45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 30rem;
+}
+.pokemon{
+    /*position: absolute;*/
+    width: 23rem;
+    height: 30rem;
+    margin: 4rem 0 0;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button img {
+    width: 30px;
+}
+.button{
+    margin:1rem
+}
+.poke{
+    width: 280px;
+    height: 280px;
+}
