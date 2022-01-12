@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Pokemon project</title>
+    <link rel="stylesheet" href="style.css" >
+    <title>Pokemons</title>
 </head>
 <body>
-    <header class="center">
-        <img src="/pictures/1200px-International_Pokémon_logo.svg.png" alt="logo">
-    </header>
-    <div class="center">
-        <div id="pokemon" class="pokemon"></div>
-    </div>
-    <div class="center">
-        <button id="izq" class="button"><img src="/pictures/arrow.png" alt=""></button>
-        <button id="der" class="button"><img src="/pictures/right-arrow.png" alt=""></button>
+    <div class="container">
+        <img src="https://imgur.com/7uvD3gE.png" alt="pokemon-logo" class="logo" />
+    
+        <div id="pokemon"></div>
+            <div class="flecha">
+                <img src="https://imgur.com/V1BqV4S.png" alt="arrow-left" class="button izq"id="previous" />
+                <img src="https://imgur.com/13HDNXU.png" alt="arrow-right" class="button" id="next" />
+            </div>
+            <div class="search">
+                <input id="number" type="number" placeholder="Choose a Pokémon number" min="1" max="649">
+                <button id="send">Search</button>
+            </div>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
