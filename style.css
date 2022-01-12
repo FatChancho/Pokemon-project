@@ -1,120 +1,106 @@
 body {
-    width: auto;
-    background: #f46b45; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #f46b45, #eea849); /* 	Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #f46b45, #eea849); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: auto;
+  background: #f46b45; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f46b45,
+    #eea849
+  ); /* 	Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f46b45,
+    #eea849
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
-    height: 100px;
+  height: 100px;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    
+.container {
+  display: flex;
+  flex-direction: column;
 }
-
-/*.arrows {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-}*/
 
 .button {
-    width: 75px;
-    cursor: pointer;
+  width: 75px;
+  cursor: pointer;
 }
-.poke{
-    width: 260px;
-    height: 260px;
+.poke {
+  width: 260px;
+  height: 260px;
 }
 .flecha {
-    display: flex;
-    width: 424px;
-    justify-content: space-between;
-    position: relative;
-    bottom: 13rem;
+  display: flex;
+  width: 424px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 13rem;
 }
-.search{
-    position: relative;
-    bottom: 5rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    align-items:center;
+.search {
+  position: relative;
+  bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
 }
-.search input{
-    width: 200px;
-    height: 1.5rem;
-    border: none;
-    border-radius: 10px;
+.search input {
+  width: 200px;
+  height: 1.5rem;
+  border: none;
+  border-radius: 10px;
 }
-@media (max-width:415px){
-    .button{
-        width: 40px;
-    }
-    .poke{
-        width: 110px;
-    }
-    .flecha{
-        width: 224px;
-        left: 1.5rem;
-    }
-    .search{
-        margin-top: 2rem;
-        flex-direction: column;
-        gap:1rem;
-    }
-    #pokemon{
-        height: 200px;
-    }
+@media (max-width: 415px) {
+  .button {
+    width: 40px;
+  }
+  .poke {
+    width: 110px;
+  }
+  .flecha {
+    width: 224px;
+    left: 1.5rem;
+  }
+  .search {
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #pokemon {
+    height: 200px;
+  }
 }
-   
+
 #pokemon {
-    background-color: white;
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-    margin: 20px auto;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid black;
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
 }
-
-/*input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-  font-size: 10px;
-}
-
-input,
-input::-webkit-input-placeholder {
-    width: 190px;
-    font-size: 15px;
-}*/
 
 #send {
-    text-decoration: none;
-    background-color: goldenrod;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-    border: 3px solid black;
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    cursor: pointer;
-    text-align: center;
+  text-decoration: none;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid black;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  cursor: pointer;
+  text-align: center;
 }
-#send:hover{
-    color: white;
-    background-color: #f46b45;
+#send:hover {
+  color: white;
+  background-color: #f46b45;
 }
